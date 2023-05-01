@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tickets</string>
+    <string name="title_routes">Маршруты</string>
+    <string name="title_tours">Туры</string>
+    <string name="title_cabinet">Кабинет</string>
+    <string name="fragment_routes_text_from">Откуда</string>
+    <string name="fragment_routes_text_to">Куда</string>
+    <string name="fragment_routes_text_forward">Туда</string>
+    <string name="fragment_routes_text_back">Обратно</string>
+    <string name="fragment_routes_text_number">Количество пассажиров</string>
+    <string name="fragment_routes_find_button">Найти билеты</string>
+</resources>
