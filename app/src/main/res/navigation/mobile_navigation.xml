@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_routes">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_routes"
         android:name="com.tickets.ui.routes.RoutesFragment"
         android:label="@string/title_routes"
         tools:layout="@layout/fragment_routes" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_tours"
         android:name="com.tickets.ui.tours.ToursFragment"
         android:label="@string/title_tours"
         tools:layout="@layout/fragment_tours" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_cabinet"
         android:name="com.tickets.ui.cabinet.CabinetFragment"
         android:label="@string/title_cabinet"
         tools:layout="@layout/fragment_cabinet" />

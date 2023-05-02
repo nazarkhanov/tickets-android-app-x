@@ -18,14 +18,14 @@ public class CabinetFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        CabinetViewModel dashboardViewModel =
+        CabinetViewModel cabinetViewModel =
                 new ViewModelProvider(this).get(CabinetViewModel.class);
 
         binding = FragmentCabinetBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textCabinet;
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        cabinetViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

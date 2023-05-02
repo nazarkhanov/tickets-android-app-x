@@ -28,21 +28,22 @@
         app:layout_constraintGuide_percent="0.5"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_from"
-        style="@style/TextInputLayout"
+        android:id="@+id/text_input_from_layout"
+        style="@style/ThemeTextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/spacing_base"
         android:hint="@string/fragment_routes_text_from"
         app:boxCornerRadiusBottomEnd="0dp"
         app:boxCornerRadiusBottomStart="0dp"
-        app:layout_constraintBottom_toTopOf="@id/text_input_to"
+        app:layout_constraintBottom_toTopOf="@id/text_input_to_layout"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_from"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:cursorVisible="false"
@@ -50,20 +51,22 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_to"
-        style="@style/TextInputLayout"
+        android:id="@+id/text_input_to_layout"
+        style="@style/ThemeTextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_base"
+        android:layout_marginBottom="@dimen/spacing_md"
         android:hint="@string/fragment_routes_text_to"
         app:boxCornerRadiusTopEnd="0dp"
         app:boxCornerRadiusTopStart="0dp"
-        app:layout_constraintBottom_toTopOf="@id/text_input_forward"
+        app:layout_constraintBottom_toTopOf="@id/text_input_forward_layout"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@id/text_input_from">
+        app:layout_constraintTop_toBottomOf="@id/text_input_from_layout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_to"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:cursorVisible="false"
@@ -71,17 +74,17 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_forward"
-        style="@style/TextInputLayout"
+        android:id="@+id/text_input_forward_layout"
+        style="@style/ThemeTextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_lg"
         android:layout_marginEnd="@dimen/spacing_sm"
         android:hint="@string/fragment_routes_text_forward"
-        app:layout_constraintBottom_toTopOf="@id/text_input_number"
+        app:layout_constraintBottom_toTopOf="@id/text_input_number_layout"
         app:layout_constraintEnd_toEndOf="@id/guideline_center"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@id/text_input_to">
+        app:layout_constraintTop_toBottomOf="@id/text_input_to_layout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -91,16 +94,16 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_back"
-        style="@style/TextInputLayout"
+        android:id="@+id/text_input_back_layout"
+        style="@style/ThemeTextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_sm"
         android:hint="@string/fragment_routes_text_back"
-        app:layout_constraintBottom_toBottomOf="@id/text_input_forward"
+        app:layout_constraintBottom_toBottomOf="@id/text_input_forward_layout"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_center"
-        app:layout_constraintTop_toTopOf="@id/text_input_forward">
+        app:layout_constraintTop_toTopOf="@id/text_input_forward_layout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -110,8 +113,8 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_number"
-        style="@style/TextInputLayout"
+        android:id="@+id/text_input_number_layout"
+        style="@style/ThemeTextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_lg"
@@ -119,7 +122,7 @@
         app:layout_constraintBottom_toTopOf="@id/button_main"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@id/text_input_forward">
+        app:layout_constraintTop_toBottomOf="@id/text_input_forward_layout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -145,5 +148,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@id/text_input_number" />
+        app:layout_constraintTop_toBottomOf="@id/text_input_number_layout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

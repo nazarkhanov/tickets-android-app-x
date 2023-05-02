@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="windowBackground" />
+    <attr format="color" name="windowContrast" />
+
+    <style name="ThemeBottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ThemeModalStyle</item>
+    </style>
+
+    <style name="ThemeModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_dialog_background</item>
+    </style>
+
+    <style name="ThemeTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusTopEnd">@dimen/text_input_corner_radius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/text_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/text_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/text_input_corner_radius</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="ThemeButtonIconOnly" parent="Widget.MaterialComponents.Button">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="iconTint">?attr/windowContrast</item>
+    </style>
+</resources>

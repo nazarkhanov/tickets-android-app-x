@@ -9,4 +9,6 @@
     <string name="fragment_routes_text_back">Обратно</string>
     <string name="fragment_routes_text_number">Количество пассажиров</string>
     <string name="fragment_routes_find_button">Найти билеты</string>
+    <string name="dialog_routes_search_text_input_placeholder">Город или станция</string>
+    <string name="dialog_routes_subtitle">Города и станции</string>
 </resources>

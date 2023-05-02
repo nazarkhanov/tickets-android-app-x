@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<places>
+    <place>
+        <name>Абай</name>
+        <source>Алматинская область</source>
+        <code>ABA</code>
+    </place>
+    <place>
+        <name>Абай</name>
+        <source>Карагандинская область</source>
+        <code>ABA</code>
+    </place>
+    <place>
+        <name>Агадырь</name>
+        <source>Карагандинская область</source>
+        <code>AGA</code>
+    </place>
+    <place>
+        <name>Азат</name>
+        <source>Алматинская область</source>
+        <code>AZA</code>
+    </place>
+    <place>
+        <name>Айдабул</name>
+        <source>Акмолинская область</source>
+        <code>AID</code>
+    </place>
+    <place>
+        <name>Айтеке Би</name>
+        <source>Кызылординская область</source>
+        <code>AIT</code>
+    </place>
+    <place>
+        <name>Айша-Биби</name>
+        <source>Жамбылская область</source>
+        <code>AIS</code>
+    </place>
+    <place>
+        <name>Акжар</name>
+        <source>Павлодарская область</source>
+        <code>AKZ</code>
+    </place>
+    <place>
+        <name>Акколь</name>
+        <source>Акмолинская область</source>
+        <code>AKK</code>
+    </place>
+    <place>
+        <name>Акколь</name>
+        <source>Атырауская область</source>
+        <code>AKK</code>
+    </place>
+    <place>
+        <name>Аксай</name>
+        <source>Западно-Казахстанская область</source>
+        <code>AKS</code>
+    </place>
+    <place>
+        <name>Аксу</name>
+        <source>Павлодарская область</source>
+        <code>AKS</code>
+    </place>
+    <place>
+        <name>Аксу</name>
+        <source>Акмолинская область</source>
+        <code>AKS</code>
+    </place>
+    <place>
+        <name>Аксуат</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>AKS</code>
+    </place>
+    <place>
+        <name>Аксукент</name>
+        <source>Южно-Казахстанская область</source>
+        <code>AKS</code>
+    </place>
+    <place>
+        <name>Актау</name>
+        <source>Мангистауская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актау</name>
+        <source>Карагандинская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актау</name>
+        <source>Западно-Казахстанская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актерек</name>
+        <source>Алматинская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актобе</name>
+        <source>Мангистауская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актобе</name>
+        <source>Актюбинская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актогай</name>
+        <source>Алматинская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Актогай</name>
+        <source>Павлодарская область</source>
+        <code>AKT</code>
+    </place>
+    <place>
+        <name>Алатау</name>
+        <source>Алматинская область</source>
+        <code>ALA</code>
+    </place>
+    <place>
+        <name>Алга</name>
+        <source>Актюбинская область</source>
+        <code>ALG</code>
+    </place>
+    <place>
+        <name>Алгабас</name>
+        <source>Алматинская область</source>
+        <code>ALG</code>
+    </place>
+    <place>
+        <name>Алгабас</name>
+        <source>Алматинская область</source>
+        <code>ALG</code>
+    </place>
+    <place>
+        <name>Алдабергенов</name>
+        <source>Алматинская область</source>
+        <code>ALD</code>
+    </place>
+    <place>
+        <name>Алексеевка</name>
+        <source>Акмолинская область</source>
+        <code>ALE</code>
+    </place>
+    <place>
+        <name>Алмалыбак</name>
+        <source>Алматинская область</source>
+        <code>ALM</code>
+    </place>
+    <place>
+        <name>Алматы</name>
+        <source>Алматы</source>
+        <code>ALM</code>
+    </place>
+    <place>
+        <name>Алтынды</name>
+        <source>Акмолинская область</source>
+        <code>ALT</code>
+    </place>
+    <place>
+        <name>Амангельды</name>
+        <source>Костанайская область</source>
+        <code>AMA</code>
+    </place>
+    <place>
+        <name>Аманкарагай</name>
+        <source>Костанайская область</source>
+        <code>AMA</code>
+    </place>
+    <place>
+        <name>Аральск</name>
+        <source>Кызылординская область</source>
+        <code>ARA</code>
+    </place>
+    <place>
+        <name>Аркалык</name>
+        <source>Костанайская область</source>
+        <code>ARK</code>
+    </place>
+    <place>
+        <name>Арысь</name>
+        <source>Южно-Казахстанская область</source>
+        <code>ARI</code>
+    </place>
+    <place>
+        <name>Астана</name>
+        <source>Акмолинская область</source>
+        <code>AST</code>
+    </place>
+    <place>
+        <name>Асу-Булак</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>ASU</code>
+    </place>
+    <place>
+        <name>Асык Ата</name>
+        <source>Южно-Казахстанская область</source>
+        <code>ASI</code>
+    </place>
+    <place>
+        <name>Атакент</name>
+        <source>Южно-Казахстанская область</source>
+        <code>ATA</code>
+    </place>
+    <place>
+        <name>Атбасар</name>
+        <source>Акмолинская область</source>
+        <code>ATB</code>
+    </place>
+    <place>
+        <name>Атыбай</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>ATI</code>
+    </place>
+    <place>
+        <name>Атырау</name>
+        <source>Атырауская область</source>
+        <code>ATI</code>
+    </place>
+    <place>
+        <name>Аулиеколь</name>
+        <source>Костанайская область</source>
+        <code>AUL</code>
+    </place>
+    <place>
+        <name>Аягоз</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>AYa</code>
+    </place>
+    <place>
+        <name>Баймурза</name>
+        <source>Акмолинская область</source>
+        <code>BAI</code>
+    </place>
+    <place>
+        <name>Байсерке</name>
+        <source>Алматинская область</source>
+        <code>BAI</code>
+    </place>
+    <place>
+        <name>Балхаш</name>
+        <source>Карагандинская область</source>
+        <code>BAL</code>
+    </place>
+    <place>
+        <name>Бакырчик</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>BAK</code>
+    </place>
+    <place>
+        <name>Баршатас</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>BAR</code>
+    </place>
+    <place>
+        <name>Батамшинский</name>
+        <source>Актюбинская область</source>
+        <code>BAT</code>
+    </place>
+    <place>
+        <name>Бахтыбай</name>
+        <source>Алматинская область</source>
+        <code>BAH</code>
+    </place>
+    <place>
+        <name>Бейнеу</name>
+        <source>Мангистауская область</source>
+        <code>BEI</code>
+    </place>
+    <place>
+        <name>Бесагаш</name>
+        <source>Алматинская область</source>
+        <code>BES</code>
+    </place>
+    <place>
+        <name>Бишкуль</name>
+        <source>Северо-Казахстанская область</source>
+        <code>BIS</code>
+    </place>
+    <place>
+        <name>Бозамбай</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>BOZ</code>
+    </place>
+    <place>
+        <name>Большенарым</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>BOL</code>
+    </place>
+    <place>
+        <name>Боралдай</name>
+        <source>Алматинская область</source>
+        <code>BOR</code>
+    </place>
+    <place>
+        <name>Бородулиха</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>BOR</code>
+    </place>
+    <place>
+        <name>Булаево</name>
+        <source>Северо-Казахстанская область</source>
+        <code>BUL</code>
+    </place>
+    <place>
+        <name>Булакты</name>
+        <source>Алматинская область</source>
+        <code>BUL</code>
+    </place>
+    <place>
+        <name>Бурабай</name>
+        <source>Акмолинская область</source>
+        <code>BUR</code>
+    </place>
+    <place>
+        <name>Бухар-Жырау</name>
+        <source>Карагандинская область</source>
+        <code>BUH</code>
+    </place>
+    <place>
+        <name>Б. Владимировка</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>B. </code>
+    </place>
+    <place>
+        <name>Ганюшкино</name>
+        <source>Атырауская область</source>
+        <code>GAN</code>
+    </place>
+    <place>
+        <name>Глубокое</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>GLU</code>
+    </place>
+    <place>
+        <name>Гульдала</name>
+        <source>Алматинская область</source>
+        <code>GUL</code>
+    </place>
+    <place>
+        <name>Дамба</name>
+        <source>Атырауская область</source>
+        <code>DAM</code>
+    </place>
+    <place>
+        <name>Декабрь</name>
+        <source>Алматинская область</source>
+        <code>DEK</code>
+    </place>
+    <place>
+        <name>Державинск</name>
+        <source>Акмолинская область</source>
+        <code>DER</code>
+    </place>
+    <place>
+        <name>Достык</name>
+        <source>Алматинская область</source>
+        <code>DOS</code>
+    </place>
+    <place>
+        <name>Дубовка</name>
+        <source>Карагандинская область</source>
+        <code>DUB</code>
+    </place>
+    <place>
+        <name>Екпенды</name>
+        <source>Алматинская область</source>
+        <code>EKP</code>
+    </place>
+    <place>
+        <name>Енбекши</name>
+        <source>Алматинская область</source>
+        <code>ENB</code>
+    </place>
+    <place>
+        <name>Ерейментау</name>
+        <source>Акмолинская область</source>
+        <code>ERE</code>
+    </place>
+    <place>
+        <name>Ерменсай</name>
+        <source>Алматинская область</source>
+        <code>ERM</code>
+    </place>
+    <place>
+        <name>Ерназар</name>
+        <source>Жамбылская область</source>
+        <code>ERN</code>
+    </place>
+    <place>
+        <name>Есик</name>
+        <source>Алматинская область</source>
+        <code>ESI</code>
+    </place>
+    <place>
+        <name>Ефремовка</name>
+        <source>Павлодарская область</source>
+        <code>EFR</code>
+    </place>
+    <place>
+        <name>Жалгыскан</name>
+        <source>Костанайская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жана-Арна</name>
+        <source>Алматинская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жанакорган</name>
+        <source>Кызылординская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жанаозен</name>
+        <source>Мангистауская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жанатас</name>
+        <source>Жамбылская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жангала</name>
+        <source>Западно-Казахстанская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жапек батыра</name>
+        <source>Алматинская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жаркент</name>
+        <source>Алматинская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жаскайрат</name>
+        <source>Атырауская область</source>
+        <code>ZHA</code>
+    </place>
+    <place>
+        <name>Жезды</name>
+        <source>Карагандинская область</source>
+        <code>ZHE</code>
+    </place>
+    <place>
+        <name>Жезказган</name>
+        <source>Карагандинская область</source>
+        <code>ZHE</code>
+    </place>
+    <place>
+        <name>Жетысай</name>
+        <source>Южно-Казахстанская область</source>
+        <code>ZHE</code>
+    </place>
+    <place>
+        <name>Житикара</name>
+        <source>Костанайская область</source>
+        <code>ZHI</code>
+    </place>
+    <place>
+        <name>Жезкент</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>ZHE</code>
+    </place>
+    <place>
+        <name>Жосалы</name>
+        <source>Кызылординская область</source>
+        <code>ZHO</code>
+    </place>
+    <place>
+        <name>Зайсан</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>ZAI</code>
+    </place>
+    <place>
+        <name>Запорожье</name>
+        <source>Акмолинская область</source>
+        <code>ZAP</code>
+    </place>
+    <place>
+        <name>Затобольск</name>
+        <source>Костанайская область</source>
+        <code>ZAT</code>
+    </place>
+    <place>
+        <name>Зачаганск</name>
+        <source>Западно-Казахстанская область</source>
+        <code>ZAC</code>
+    </place>
+    <place>
+        <name>Зеренда</name>
+        <source>Акмолинская область</source>
+        <code>ZER</code>
+    </place>
+    <place>
+        <name>Зыряновск</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>ZIR</code>
+    </place>
+    <place>
+        <name>Имантау</name>
+        <source>Северо-Казахстанская область</source>
+        <code>IMA</code>
+    </place>
+    <place>
+        <name>Иргели</name>
+        <source>Алматинская область</source>
+        <code>IRG</code>
+    </place>
+    <place>
+        <name>Кабалтау</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KAB</code>
+    </place>
+    <place>
+        <name>Кабанбай</name>
+        <source>Алматинская область</source>
+        <code>KAB</code>
+    </place>
+    <place>
+        <name>Кабанбай Батыр</name>
+        <source>Акмолинская область</source>
+        <code>KAB</code>
+    </place>
+    <place>
+        <name>Казалинск</name>
+        <source>Кызылординская область</source>
+        <code>KAZ</code>
+    </place>
+    <place>
+        <name>Казталовка</name>
+        <source>Западно-Казахстанская область</source>
+        <code>KAZ</code>
+    </place>
+    <place>
+        <name>Казыбек би</name>
+        <source>Южно-Казахстанская область</source>
+        <code>KAZ</code>
+    </place>
+    <place>
+        <name>Калкаман</name>
+        <source>Павлодарская область</source>
+        <code>KAL</code>
+    </place>
+    <place>
+        <name>Каменка</name>
+        <source>Западно-Казахстанская область</source>
+        <code>KAM</code>
+    </place>
+    <place>
+        <name>Каменка</name>
+        <source>Алматинская область</source>
+        <code>KAM</code>
+    </place>
+    <place>
+        <name>Камысты</name>
+        <source>Костанайская область</source>
+        <code>KAM</code>
+    </place>
+    <place>
+        <name>Кандыагаш</name>
+        <source>Актюбинская область</source>
+        <code>KAN</code>
+    </place>
+    <place>
+        <name>Капчагай</name>
+        <source>Алматинская область</source>
+        <code>KAP</code>
+    </place>
+    <place>
+        <name>Катон-Карагай</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KAT</code>
+    </place>
+    <place>
+        <name>Карабалык</name>
+        <source>Костанайская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Карабулак</name>
+        <source>Алматинская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Караганда</name>
+        <source>Карагандинская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Кайнар</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KAI</code>
+    </place>
+    <place>
+        <name>Караул</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Каражал</name>
+        <source>Карагандинская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Каратау</name>
+        <source>Жамбылская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Каргалинское</name>
+        <source>Актюбинская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Каркаралинск</name>
+        <source>Карагандинская область</source>
+        <code>KAR</code>
+    </place>
+    <place>
+        <name>Каскелен</name>
+        <source>Алматинская область</source>
+        <code>KAS</code>
+    </place>
+    <place>
+        <name>Кемиртоган</name>
+        <source>Алматинская область</source>
+        <code>KEM</code>
+    </place>
+    <place>
+        <name>Кендала</name>
+        <source>Алматинская область</source>
+        <code>KEN</code>
+    </place>
+    <place>
+        <name>Кентау</name>
+        <source>Южно-Казахстанская область</source>
+        <code>KEN</code>
+    </place>
+    <place>
+        <name>Кербулак</name>
+        <source>Алматинская область</source>
+        <code>KER</code>
+    </place>
+    <place>
+        <name>Кишкенеколь</name>
+        <source>Северо-Казахстанская область</source>
+        <code>KIS</code>
+    </place>
+    <place>
+        <name>Ключи</name>
+        <source>Алматинская область</source>
+        <code>KLY</code>
+    </place>
+    <place>
+        <name>Кокпекты</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KOK</code>
+    </place>
+    <place>
+        <name>Коктерек</name>
+        <source>Южно-Казахстанская область</source>
+        <code>KOK</code>
+    </place>
+    <place>
+        <name>Коктобе</name>
+        <source>Павлодарская область</source>
+        <code>KOK</code>
+    </place>
+    <place>
+        <name>Кокшетау</name>
+        <source>Акмолинская область</source>
+        <code>KOK</code>
+    </place>
+    <place>
+        <name>Кордай</name>
+        <source>Жамбылская область</source>
+        <code>KOR</code>
+    </place>
+    <place>
+        <name>Косозен</name>
+        <source>Алматинская область</source>
+        <code>KOS</code>
+    </place>
+    <place>
+        <name>Костанай</name>
+        <source>Костанайская область</source>
+        <code>KOS</code>
+    </place>
+    <place>
+        <name>Куйгенжар</name>
+        <source>Акмолинская область</source>
+        <code>KUI</code>
+    </place>
+    <place>
+        <name>Кулан</name>
+        <source>Жамбылская область</source>
+        <code>KUL</code>
+    </place>
+    <place>
+        <name>Кульсары</name>
+        <source>Атырауская область</source>
+        <code>KUL</code>
+    </place>
+    <place>
+        <name>Курское</name>
+        <source>Акмолинская область</source>
+        <code>KUR</code>
+    </place>
+    <place>
+        <name>Курчатов</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KUR</code>
+    </place>
+    <place>
+        <name>Курчум</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>KUR</code>
+    </place>
+    <place>
+        <name>Курылысши</name>
+        <source>Алматы</source>
+        <code>KUR</code>
+    </place>
+    <place>
+        <name>Кушмурун</name>
+        <source>Костанайская область</source>
+        <code>KUS</code>
+    </place>
+    <place>
+        <name>Кызылорда</name>
+        <source>Кызылординская область</source>
+        <code>KIZ</code>
+    </place>
+    <place>
+        <name>Кызылсай</name>
+        <source>Южно-Казахстанская область</source>
+        <code>KIZ</code>
+    </place>
+    <place>
+        <name>Кыргауылды</name>
+        <source>Алматинская область</source>
+        <code>KIR</code>
+    </place>
+    <place>
+        <name>Ленгер</name>
+        <source>Южно-Казахстанская область</source>
+        <code>LEN</code>
+    </place>
+    <place>
+        <name>Ленинградское</name>
+        <source>Северо-Казахстанская область</source>
+        <code>LEN</code>
+    </place>
+    <place>
+        <name>Лисаковск</name>
+        <source>Костанайская область</source>
+        <code>LIS</code>
+    </place>
+    <place>
+        <name>Майкаин</name>
+        <source>Павлодарская область</source>
+        <code>MAI</code>
+    </place>
+    <place>
+        <name>Маканчи</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>MAK</code>
+    </place>
+    <place>
+        <name>Макинск</name>
+        <source>Акмолинская область</source>
+        <code>MAK</code>
+    </place>
+    <place>
+        <name>Макпалколь</name>
+        <source>Кызылординская область</source>
+        <code>MAK</code>
+    </place>
+    <place>
+        <name>Максимовка</name>
+        <source>Акмолинская область</source>
+        <code>MAK</code>
+    </place>
+    <place>
+        <name>Малиновка</name>
+        <source>Акмолинская область</source>
+        <code>MAL</code>
+    </place>
+    <place>
+        <name>Маловодное</name>
+        <source>Алматинская область</source>
+        <code>MAL</code>
+    </place>
+    <place>
+        <name>Мамлютка</name>
+        <source>Северо-Казахстанская область</source>
+        <code>MAM</code>
+    </place>
+    <place>
+        <name>Мамыр</name>
+        <source>Алматинская область</source>
+        <code>MAM</code>
+    </place>
+    <place>
+        <name>Мартук</name>
+        <source>Актюбинская область</source>
+        <code>MAR</code>
+    </place>
+    <place>
+        <name>Махамбет</name>
+        <source>Атырауская область</source>
+        <code>MAH</code>
+    </place>
+    <place>
+        <name>Мерке</name>
+        <source>Жамбылская область</source>
+        <code>MER</code>
+    </place>
+    <place>
+        <name>Мерке</name>
+        <source>Алматинская область</source>
+        <code>MER</code>
+    </place>
+    <place>
+        <name>Мухаметжан Туймебаева</name>
+        <source>Алматинская область</source>
+        <code>MUH</code>
+    </place>
+    <place>
+        <name>Новая согра</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>NOV</code>
+    </place>
+    <place>
+        <name>Ново-Хайрузовка</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>NOV</code>
+    </place>
+    <place>
+        <name>Новоишимское</name>
+        <source>Северо-Казахстанская область</source>
+        <code>NOV</code>
+    </place>
+    <place>
+        <name>Новопавловка</name>
+        <source>Костанайская область</source>
+        <code>NOV</code>
+    </place>
+    <place>
+        <name>Новочеркаское</name>
+        <source>Акмолинская область</source>
+        <code>NOV</code>
+    </place>
+    <place>
+        <name>Н. Шульба</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>N. </code>
+    </place>
+    <place>
+        <name>Осакаровка</name>
+        <source>Карагандинская область</source>
+        <code>OSA</code>
+    </place>
+    <place>
+        <name>Отеген Батыр</name>
+        <source>Алматинская область</source>
+        <code>OTE</code>
+    </place>
+    <place>
+        <name>Ошакты</name>
+        <source>Южно-Казахстанская область</source>
+        <code>OSH</code>
+    </place>
+    <place>
+        <name>п.Мерей</name>
+        <source>Алматинская область</source>
+        <code>P.M</code>
+    </place>
+    <place>
+        <name>п.Шубар</name>
+        <source>Южно-Казахстанская область</source>
+        <code>P.S</code>
+    </place>
+    <place>
+        <name>п.Ынтымак</name>
+        <source>Алматинская область</source>
+        <code>P.I</code>
+    </place>
+    <place>
+        <name>Павлодар</name>
+        <source>Павлодарская область</source>
+        <code>PAV</code>
+    </place>
+    <place>
+        <name>Первомайка</name>
+        <source>Алматинская область</source>
+        <code>PER</code>
+    </place>
+    <place>
+        <name>Первомайский</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>PER</code>
+    </place>
+    <place>
+        <name>Переметное</name>
+        <source>Западно-Казахстанская область</source>
+        <code>PER</code>
+    </place>
+    <place>
+        <name>Переметное</name>
+        <source>Западно-Казахстанская область</source>
+        <code>PER</code>
+    </place>
+    <place>
+        <name>Петропавловск</name>
+        <source>Северо-Казахстанская область</source>
+        <code>PET</code>
+    </place>
+    <place>
+        <name>Приозёрный</name>
+        <source>Костанайская область</source>
+        <code>PRI</code>
+    </place>
+    <place>
+        <name>Раздольный</name>
+        <source>Костанайская область</source>
+        <code>RAZ</code>
+    </place>
+    <place>
+        <name>Риддер</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>RID</code>
+    </place>
+    <place>
+        <name>Рудный</name>
+        <source>Костанайская область</source>
+        <code>RUD</code>
+    </place>
+    <place>
+        <name>Рузаевка</name>
+        <source>Северо-Казахстанская область</source>
+        <code>RUZ</code>
+    </place>
+    <place>
+        <name>с. Бастобе</name>
+        <source>Алматинская область</source>
+        <code>S. </code>
+    </place>
+    <place>
+        <name>с.Акмол</name>
+        <source>Акмолинская область</source>
+        <code>S.A</code>
+    </place>
+    <place>
+        <name>с.Б.Момышулы</name>
+        <source>Жамбылская область</source>
+        <code>S.B</code>
+    </place>
+    <place>
+        <name>Садовое</name>
+        <source>Костанайская область</source>
+        <code>SAD</code>
+    </place>
+    <place>
+        <name>Саймасай</name>
+        <source>Алматинская область</source>
+        <code>SAI</code>
+    </place>
+    <place>
+        <name>Сайрам</name>
+        <source>Южно-Казахстанская область</source>
+        <code>SAI</code>
+    </place>
+    <place>
+        <name>Сайхин</name>
+        <source>Западно-Казахстанская область</source>
+        <code>SAI</code>
+    </place>
+    <place>
+        <name>Самарка</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SAM</code>
+    </place>
+    <place>
+        <name>Сарань</name>
+        <source>Карагандинская область</source>
+        <code>SAR</code>
+    </place>
+    <place>
+        <name>Саратов</name>
+        <source>Северо-Казахстанская область</source>
+        <code>SAR</code>
+    </place>
+    <place>
+        <name>Сарыагаш</name>
+        <source>Южно-Казахстанская область</source>
+        <code>SAR</code>
+    </place>
+    <place>
+        <name>Сарыколь</name>
+        <source>Костанайская область</source>
+        <code>SAR</code>
+    </place>
+    <place>
+        <name>Сарыозек</name>
+        <source>Алматинская область</source>
+        <code>SAR</code>
+    </place>
+    <place>
+        <name>Сатпаев</name>
+        <source>Карагандинская область</source>
+        <code>SAT</code>
+    </place>
+    <place>
+        <name>Саумалколь</name>
+        <source>Северо-Казахстанская область</source>
+        <code>SAU</code>
+    </place>
+    <place>
+        <name>Семей</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SEM</code>
+    </place>
+    <place>
+        <name>Серебрянск</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SER</code>
+    </place>
+    <place>
+        <name>Силантьевка</name>
+        <source>Костанайская область</source>
+        <code>SIL</code>
+    </place>
+    <place>
+        <name>Солнечное</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SOL</code>
+    </place>
+    <place>
+        <name>Степногорск</name>
+        <source>Акмолинская область</source>
+        <code>STE</code>
+    </place>
+    <place>
+        <name>Степное</name>
+        <source>Жамбылская область</source>
+        <code>STE</code>
+    </place>
+    <place>
+        <name>Сузак</name>
+        <source>Южно-Казахстанская область</source>
+        <code>SUZ</code>
+    </place>
+    <place>
+        <name>Таврия</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>TAV</code>
+    </place>
+    <place>
+        <name>Тайпак</name>
+        <source>Западно-Казахстанская область</source>
+        <code>TAI</code>
+    </place>
+    <place>
+        <name>Тайынша</name>
+        <source>Северо-Казахстанская область</source>
+        <code>TAI</code>
+    </place>
+    <place>
+        <name>Тайынша</name>
+        <source>Южно-Казахстанская область</source>
+        <code>TAI</code>
+    </place>
+    <place>
+        <name>Талапкер</name>
+        <source>Акмолинская область</source>
+        <code>TAL</code>
+    </place>
+    <place>
+        <name>Талгар</name>
+        <source>Алматинская область</source>
+        <code>TAL</code>
+    </place>
+    <place>
+        <name>Талдыкорган</name>
+        <source>Алматинская область</source>
+        <code>TAL</code>
+    </place>
+    <place>
+        <name>Тараз</name>
+        <source>Жамбылская область</source>
+        <code>TAR</code>
+    </place>
+    <place>
+        <name>Тарановское</name>
+        <source>Костанайская область</source>
+        <code>TAR</code>
+    </place>
+    <place>
+        <name>Текели</name>
+        <source>Алматинская область</source>
+        <code>TEK</code>
+    </place>
+    <place>
+        <name>Темиртау</name>
+        <source>Карагандинская область</source>
+        <code>TEM</code>
+    </place>
+    <place>
+        <name>Тенгиз</name>
+        <source>Атырауская область</source>
+        <code>TEN</code>
+    </place>
+    <place>
+        <name>Теректы</name>
+        <source>Алматинская область</source>
+        <code>TER</code>
+    </place>
+    <place>
+        <name>Теректы</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>TER</code>
+    </place>
+    <place>
+        <name>Теремшамка</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>TER</code>
+    </place>
+    <place>
+        <name>Теренозек</name>
+        <source>Кызылординская область</source>
+        <code>TER</code>
+    </place>
+    <place>
+        <name>Топар</name>
+        <source>Карагандинская область</source>
+        <code>TOP</code>
+    </place>
+    <place>
+        <name>Торебай Би</name>
+        <source>Кызылординская область</source>
+        <code>TOR</code>
+    </place>
+    <place>
+        <name>Трекино</name>
+        <source>Западно-Казахстанская область</source>
+        <code>TRE</code>
+    </place>
+    <place>
+        <name>Тугул</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>TUG</code>
+    </place>
+    <place>
+        <name>Туздыбастау</name>
+        <source>Алматинская область</source>
+        <code>TUZ</code>
+    </place>
+    <place>
+        <name>Туркестан</name>
+        <source>Южно-Казахстанская область</source>
+        <code>TUR</code>
+    </place>
+    <place>
+        <name>Узунколь</name>
+        <source>Костанайская область</source>
+        <code>UZU</code>
+    </place>
+    <place>
+        <name>Узынагаш</name>
+        <source>Алматинская область</source>
+        <code>UZI</code>
+    </place>
+    <place>
+        <name>Умбеталы</name>
+        <source>Алматинская область</source>
+        <code>UMB</code>
+    </place>
+    <place>
+        <name>Умирзак</name>
+        <source>Мангистауская область</source>
+        <code>UMI</code>
+    </place>
+    <place>
+        <name>Уральск</name>
+        <source>Западно-Казахстанская область</source>
+        <code>URA</code>
+    </place>
+    <place>
+        <name>Усть-Каменогорск</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>UST</code>
+    </place>
+    <place>
+        <name>Урджар</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>URD</code>
+    </place>
+    <place>
+        <name>Ушарал</name>
+        <source>Алматинская область</source>
+        <code>USH</code>
+    </place>
+    <place>
+        <name>Ушконыр (Шамалган)</name>
+        <source>Алматинская область</source>
+        <code>USH</code>
+    </place>
+    <place>
+        <name>Уштобе</name>
+        <source>Алматинская область</source>
+        <code>USH</code>
+    </place>
+    <place>
+        <name>Фабричный</name>
+        <source>Алматинская область</source>
+        <code>FAB</code>
+    </place>
+    <place>
+        <name>Федоровка</name>
+        <source>Костанайская область</source>
+        <code>FED</code>
+    </place>
+    <place>
+        <name>Федоровка</name>
+        <source>Западно-Казахстанская область</source>
+        <code>FED</code>
+    </place>
+    <place>
+        <name>Форт-Шевченко</name>
+        <source>Мангистауская область</source>
+        <code>FOR</code>
+    </place>
+    <place>
+        <name>Хромтау</name>
+        <source>Актюбинская область</source>
+        <code>HRO</code>
+    </place>
+    <place>
+        <name>Чарск</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>CHA</code>
+    </place>
+    <place>
+        <name>Чемолган</name>
+        <source>Алматинская область</source>
+        <code>CHE</code>
+    </place>
+    <place>
+        <name>Чилик</name>
+        <source>Южно-Казахстанская область</source>
+        <code>CHI</code>
+    </place>
+    <place>
+        <name>Чимбулак</name>
+        <source>Алматинская область</source>
+        <code>CHI</code>
+    </place>
+    <place>
+        <name>Чингирлау</name>
+        <source>Западно-Казахстанская область</source>
+        <code>CHI</code>
+    </place>
+    <place>
+        <name>Чунджа</name>
+        <source>Алматинская область</source>
+        <code>CHU</code>
+    </place>
+    <place>
+        <name>Шалкар</name>
+        <source>Актюбинская область</source>
+        <code>SHA</code>
+    </place>
+    <place>
+        <name>Шар</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SHA</code>
+    </place>
+    <place>
+        <name>Шардара</name>
+        <source>Южно-Казахстанская область</source>
+        <code>SHA</code>
+    </place>
+    <place>
+        <name>Шахтинск</name>
+        <source>Карагандинская область</source>
+        <code>SHA</code>
+    </place>
+    <place>
+        <name>Шашубай</name>
+        <source>Карагандинская область</source>
+        <code>SHA</code>
+    </place>
+    <place>
+        <name>Шелек</name>
+        <source>Алматинская область</source>
+        <code>SHE</code>
+    </place>
+    <place>
+        <name>Шемонаиха</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SHE</code>
+    </place>
+    <place>
+        <name>Шенгельды</name>
+        <source>Алматинская область</source>
+        <code>SHE</code>
+    </place>
+    <place>
+        <name>Шетпе</name>
+        <source>Мангистауская область</source>
+        <code>SHE</code>
+    </place>
+    <place>
+        <name>Шидерты</name>
+        <source>Павлодарская область</source>
+        <code>SHI</code>
+    </place>
+    <place>
+        <name>Шиели</name>
+        <source>Кызылординская область</source>
+        <code>SHI</code>
+    </place>
+    <place>
+        <name>Шортанды</name>
+        <source>Акмолинская область</source>
+        <code>SHO</code>
+    </place>
+    <place>
+        <name>Шу</name>
+        <source>Жамбылская область</source>
+        <code>SHU</code>
+    </place>
+    <place>
+        <name>Шубаркудук</name>
+        <source>Актюбинская область</source>
+        <code>SHU</code>
+    </place>
+    <place>
+        <name>Шымкент</name>
+        <source>Южно-Казахстанская область</source>
+        <code>SHI</code>
+    </place>
+    <place>
+        <name>Шынты</name>
+        <source>Жамбылская область</source>
+        <code>SHI</code>
+    </place>
+    <place>
+        <name>Шынты</name>
+        <source>Алматинская область</source>
+        <code>SHI</code>
+    </place>
+    <place>
+        <name>Щучинск</name>
+        <source>Акмолинская область</source>
+        <code>SCH</code>
+    </place>
+    <place>
+        <name>Шульбинск</name>
+        <source>Восточно-Казахстанская область</source>
+        <code>SHU</code>
+    </place>
+    <place>
+        <name>Экибастуз</name>
+        <source>Павлодарская область</source>
+        <code>EKI</code>
+    </place>
+    <place>
+        <name>Эмба</name>
+        <source>Актюбинская область</source>
+        <code>EMB</code>
+    </place>
+</places>

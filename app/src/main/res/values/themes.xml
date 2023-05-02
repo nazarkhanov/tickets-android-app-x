@@ -8,14 +8,17 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+
+        <item name="windowBackground">@color/white</item>
+        <item name="windowContrast">@color/black</item>
+
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="actionBarTheme" type="style">@style/ThemeActionBar</item>
     </style>
 
-    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
-        <item name="boxCornerRadiusTopEnd">@dimen/text_input_corner_radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/text_input_corner_radius</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/text_input_corner_radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/text_input_corner_radius</item>
-        <item name="boxStrokeWidth">0dp</item>
-        <item name="boxStrokeWidthFocused">0dp</item>
+    <style name="ThemeActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/white</item>
     </style>
 </resources>
