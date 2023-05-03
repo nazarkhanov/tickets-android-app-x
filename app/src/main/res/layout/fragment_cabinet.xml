@@ -28,6 +28,7 @@
             app:text="Мои билеты" />
 
         <com.tickets.widgets.MenuItemView
+            android:id="@+id/nav_item_support"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:icon="@drawable/ic_support_24dp"

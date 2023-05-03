@@ -50,7 +50,7 @@ public class MenuItemView extends ConstraintLayout {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
-        if (ev.getAction() == MotionEvent.ACTION_UP) {
+        if (ev.getAction() == MotionEvent.ACTION_UP && listener != null) {
             listener.onClick(binding.getRoot());
         }
 

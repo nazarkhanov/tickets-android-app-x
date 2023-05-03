@@ -1,5 +1,7 @@
 package com.tickets.ui.cabinet;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -70,6 +72,17 @@ public class CabinetFragment extends Fragment {
 
         binding.navItemRoutes.setOnClickListener(listener.apply(NavItemType.ROUTES));
         binding.navItemTours.setOnClickListener(listener.apply(NavItemType.TOURS));
+
+        binding.navItemSupport.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
+                intent.setData(Uri.parse("mailto:shtreeets@gmail.com"));
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Поддержка Tickets");
+                intent.putExtra(Intent.EXTRA_TEXT, "Можете мне помочь. У меня проблема с ");
+                startActivity(intent);
+            }
+        });
 
         return binding.getRoot();
     }
