@@ -64,7 +64,7 @@ public class RoutesCardsAdapter extends RecyclerView.Adapter<RoutesCardsAdapter.
         public void bind(Card item, OnItemClickListener listener) {
             binding.textPrice.setText(String.valueOf(item.getPrice()) + " " + item.getCurrency());
 
-            binding.getRoot().setOnClickListener(new View.OnClickListener() {
+            binding.card.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     if (listener == null) return;
