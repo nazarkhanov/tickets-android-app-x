@@ -1,6 +1,7 @@
-package com.tickets.ui.routes;
+package com.tickets.ui.routes.dialogs;
 
 import android.annotation.SuppressLint;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,30 +9,30 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tickets.databinding.ItemPlaceBinding;
-import com.tickets.models.routes.Place;
+import com.tickets.databinding.ItemCardBinding;
+import com.tickets.models.routes.Card;
 
 import java.util.ArrayList;
 
-public class RoutesPlacesAdapter extends RecyclerView.Adapter<RoutesPlacesAdapter.RoutesPlaceViewHolder> {
+public class RoutesCardsAdapter extends RecyclerView.Adapter<RoutesCardsAdapter.RoutesCardViewHolder> {
 
-    private ArrayList<Place> list;
+    private ArrayList<Card> list;
 
     private OnItemClickListener listener;
 
     @NonNull
     @Override
-    public RoutesPlaceViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        ItemPlaceBinding binding = ItemPlaceBinding.inflate(
+    public RoutesCardViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        ItemCardBinding binding = ItemCardBinding.inflate(
                 LayoutInflater.from(parent.getContext()),
                 parent, false);
 
-        return new RoutesPlaceViewHolder(binding);
+        return new RoutesCardViewHolder(binding);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RoutesPlaceViewHolder holder, int position) {
-        Place item = list.get(position);
+    public void onBindViewHolder(@NonNull RoutesCardViewHolder holder, int position) {
+        Card item = list.get(position);
         holder.bind(item, listener);
     }
 
@@ -41,7 +42,7 @@ public class RoutesPlacesAdapter extends RecyclerView.Adapter<RoutesPlacesAdapte
     }
 
     @SuppressLint("NotifyDataSetChanged")
-    public void updateList(ArrayList<Place> list) {
+    public void updateList(ArrayList<Card> list) {
         this.list = list;
         notifyDataSetChanged();
     }
@@ -50,19 +51,18 @@ public class RoutesPlacesAdapter extends RecyclerView.Adapter<RoutesPlacesAdapte
         this.listener = listener;
     }
 
-    public static class RoutesPlaceViewHolder extends RecyclerView.ViewHolder {
+    public static class RoutesCardViewHolder extends RecyclerView.ViewHolder {
 
-        private final ItemPlaceBinding binding;
+        private final ItemCardBinding binding;
 
-        public RoutesPlaceViewHolder(ItemPlaceBinding binding) {
+        public RoutesCardViewHolder(ItemCardBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
 
-        public void bind(Place item, OnItemClickListener listener) {
-            binding.textPlaceName.setText(item.getName());
-            binding.textPlaceSource.setText(item.getSource());
-            binding.textPlaceCode.setText(item.getCode());
+        @SuppressLint("SetTextI18n")
+        public void bind(Card item, OnItemClickListener listener) {
+            binding.textPrice.setText(String.valueOf(item.getPrice()) + " " + item.getCurrency());
 
             binding.getRoot().setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -75,6 +75,6 @@ public class RoutesPlacesAdapter extends RecyclerView.Adapter<RoutesPlacesAdapte
     }
 
     public interface OnItemClickListener {
-        void onItemClick(Place place);
+        void onItemClick(Card card);
     }
 }

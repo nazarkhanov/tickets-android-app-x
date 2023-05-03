@@ -23,5 +23,6 @@
         app:icon="@drawable/ic_close_black_24"
         app:iconSize="28dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

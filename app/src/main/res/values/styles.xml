@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr format="color" name="windowBackground" />
+    <attr format="color" name="windowBackgroundPale" />
     <attr format="color" name="windowContrast" />
+    <attr format="color" name="iconColor" />
 
     <style name="ThemeBottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/ThemeModalStyle</item>
@@ -30,5 +32,10 @@
         <item name="android:minHeight">48dp</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="iconTint">?attr/windowContrast</item>
+    </style>
+
+    <style name="ThemeDatePickerDialog" parent="Theme.Material3.Light.Dialog">
+        <item name="colorAccent">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/black</item>
     </style>
 </resources>

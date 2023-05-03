@@ -3,16 +3,16 @@
 
     <item
         android:id="@+id/navigation_routes"
-        android:icon="@drawable/ic_test_black_24dp"
+        android:icon="@drawable/ic_bus_24dp"
         android:title="@string/title_routes" />
 
     <item
         android:id="@+id/navigation_tours"
-        android:icon="@drawable/ic_test_black_24dp"
+        android:icon="@drawable/ic_travel_24dp"
         android:title="@string/title_tours" />
 
     <item
         android:id="@+id/navigation_cabinet"
-        android:icon="@drawable/ic_test_black_24dp"
+        android:icon="@drawable/ic_user_24dp"
         android:title="@string/title_cabinet" />
 </menu>

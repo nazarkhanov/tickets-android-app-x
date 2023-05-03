@@ -6,5 +6,7 @@
     <color name="black_500">#131313</color>
     <color name="black_700">#0B0B0B</color>
     <color name="black">#FF000000</color>
+    <color name="black_pale">#1C1C1C</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_pale">#F0F0F0</color>
 </resources>

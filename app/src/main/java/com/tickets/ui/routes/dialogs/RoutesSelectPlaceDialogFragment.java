@@ -1,4 +1,4 @@
-package com.tickets.ui.routes;
+package com.tickets.ui.routes.dialogs;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.tickets.databinding.DialogFragmentSelectPlaceBinding;
 import com.tickets.models.routes.Place;
 import com.tickets.models.routes.RoutesViewModel;
-import com.tickets.widgets.BottomSheetDialogFragment;
+import com.tickets.widgets.BottomSheetDialog;
 
 import java.util.ArrayList;
 
@@ -32,10 +32,10 @@ public class RoutesSelectPlaceDialogFragment extends Fragment {
                              Bundle savedInstanceState) {
         binding = DialogFragmentSelectPlaceBinding.inflate(inflater, container, false);
 
-        RoutesViewModel routesViewModel =
+        RoutesViewModel viewModel =
                 new ViewModelProvider(requireActivity()).get(RoutesViewModel.class);
 
-        binding.textInput.setText(routesViewModel.getFilterText().getValue());
+        binding.textInput.setText(viewModel.getFilterText().getValue());
 
         binding.textInput.addTextChangedListener(new TextWatcher() {
             @Override
@@ -44,7 +44,7 @@ public class RoutesSelectPlaceDialogFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                routesViewModel.filterPlaces(charSequence.toString());
+                viewModel.filterPlaces(charSequence.toString());
             }
 
             @Override
@@ -52,10 +52,9 @@ public class RoutesSelectPlaceDialogFragment extends Fragment {
             }
         });
 
-
         RoutesPlacesAdapter adapter = new RoutesPlacesAdapter();
 
-        routesViewModel.getFilteredPlaces().observe(getViewLifecycleOwner(), new Observer<ArrayList<Place>>() {
+        viewModel.getFilteredPlaces().observe(getViewLifecycleOwner(), new Observer<ArrayList<Place>>() {
             @Override
             public void onChanged(ArrayList<Place> places) {
                 adapter.updateList(places);
@@ -65,14 +64,14 @@ public class RoutesSelectPlaceDialogFragment extends Fragment {
         adapter.setOniItemClickListener(new RoutesPlacesAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Place place) {
+                binding.textInput.setText(viewModel.getFilterText().getValue());
+
                 Bundle result = new Bundle();
 
-                result.putSerializable(BottomSheetDialogFragment.ACTION_KEY, BottomSheetDialogFragment.Actions.CLOSE);
-                getParentFragmentManager().setFragmentResult(BottomSheetDialogFragment.getStaticTag(), result);
+                result.putSerializable(BottomSheetDialog.ACTION_KEY, BottomSheetDialog.Actions.CLOSE);
+                getParentFragmentManager().setFragmentResult(BottomSheetDialog.getStaticTag(), result);
 
-                listener.onItemClick(place);
-                binding.textInput.setText(routesViewModel.getFilterText().getValue());
-            }
+                listener.onItemClick(place);}
         });
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(requireActivity());
@@ -80,7 +79,7 @@ public class RoutesSelectPlaceDialogFragment extends Fragment {
         binding.recyclePlacesList.setHasFixedSize(true);
         binding.recyclePlacesList.setAdapter(adapter);
 
-        if (!title.isEmpty()) {
+        if (title != null && !title.isEmpty()) {
             binding.textTitle.setText(title);
         }
 

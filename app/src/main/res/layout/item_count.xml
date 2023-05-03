@@ -21,33 +21,14 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/text_place_name"
+                android:id="@+id/text_main"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:textSize="18sp"
-                android:text="Алматы"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/text_place_source"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:textSize="12sp"
-                android:text="Казахстан"
+                android:text="1"
                 tools:ignore="HardcodedText" />
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/text_place_code"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:fontFamily="sans-serif"
-            android:textSize="16sp"
-            android:text="ALM"
-            tools:ignore="HardcodedText" />
     </LinearLayout>
 
     <View

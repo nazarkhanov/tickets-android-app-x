@@ -11,7 +11,9 @@
         <item name="android:textColor">@color/black</item>
 
         <item name="windowBackground">@color/white</item>
+        <item name="windowBackgroundPale">@color/white_pale</item>
         <item name="windowContrast">@color/black</item>
+        <item name="iconColor">@color/black</item>
 
         <item name="android:windowBackground">@color/white</item>
 

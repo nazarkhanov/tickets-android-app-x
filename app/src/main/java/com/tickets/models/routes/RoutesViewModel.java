@@ -1,25 +1,38 @@
 package com.tickets.models.routes;
 
 import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModel;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class RoutesViewModel extends ViewModel {
 
     private final MutableLiveData<ArrayList<Place>> places;
     private final MutableLiveData<ArrayList<Place>> filteredPlaces;
     private final MutableLiveData<String> filterText;
+
     private final MutableLiveData<Place> placeFrom;
     private final MutableLiveData<Place> placeTo;
 
+    private final MutableLiveData<Calendar> dateForward;
+    private final MutableLiveData<Calendar> dateBack;
+
+    private final MutableLiveData<Integer> count;
+
     public RoutesViewModel() {
         places = new MutableLiveData<>();
+
         filteredPlaces = new MutableLiveData<>();
         filterText = new MutableLiveData<>();
+
         placeFrom = new MutableLiveData<>();
         placeTo = new MutableLiveData<>();
+
+        dateForward = new MutableLiveData<>();
+        dateBack = new MutableLiveData<>();
+
+        count = new MutableLiveData<>();
 
         places.setValue(PlacesService.fetch());
         filteredPlaces.setValue(PlacesService.fetch());
@@ -57,6 +70,30 @@ public class RoutesViewModel extends ViewModel {
 
     public void setPlaceTo(Place place) {
         placeTo.setValue(place);
+    }
+
+    public MutableLiveData<Calendar> getDateForward() {
+        return dateForward;
+    }
+
+    public void setDateForward(Calendar calendar) {
+        dateForward.setValue(calendar);
+    }
+
+    public MutableLiveData<Calendar> getDateBack() {
+        return dateBack;
+    }
+
+    public void setDateBack(Calendar calendar) {
+        dateBack.setValue(calendar);
+    }
+
+    public MutableLiveData<Integer> getCount() {
+        return count;
+    }
+
+    public void setCount(int number) {
+        count.setValue(number);
     }
 
     public void filterPlaces(String text) {

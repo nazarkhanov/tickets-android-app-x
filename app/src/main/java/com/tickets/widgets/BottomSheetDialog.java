@@ -10,20 +10,18 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentResultListener;
 
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.tickets.R;
 import com.tickets.databinding.WidgetFragmentBottomSheetDialogBinding;
 
-public class BottomSheetDialogFragment extends com.google.android.material.bottomsheet.BottomSheetDialogFragment {
+public class BottomSheetDialog extends com.google.android.material.bottomsheet.BottomSheetDialogFragment {
 
     private WidgetFragmentBottomSheetDialogBinding binding;
-    private BottomSheetDialog dialog;
+    private com.google.android.material.bottomsheet.BottomSheetDialog dialog;
     private Fragment fragment;
 
     public static enum Actions {
@@ -44,15 +42,15 @@ public class BottomSheetDialogFragment extends com.google.android.material.botto
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Dialog baseDialog = getDialog();
-        if (!(baseDialog instanceof BottomSheetDialog)) return;
-        dialog = (BottomSheetDialog) baseDialog;
+        if (!(baseDialog instanceof com.google.android.material.bottomsheet.BottomSheetDialog)) return;
+        dialog = (com.google.android.material.bottomsheet.BottomSheetDialog) baseDialog;
 
         setDialogHeight();
         setCloseButtonListener();
 
         FragmentManager childManager = getChildFragmentManager();
 
-        childManager.setFragmentResultListener(BottomSheetDialogFragment.getStaticTag(), this, new FragmentResultListener() {
+        childManager.setFragmentResultListener(BottomSheetDialog.getStaticTag(), this, new FragmentResultListener() {
             @Override
             public void onFragmentResult(@NonNull String key, @NonNull Bundle bundle) {
                 Actions action = (Actions) bundle.get(ACTION_KEY);
@@ -98,6 +96,6 @@ public class BottomSheetDialogFragment extends com.google.android.material.botto
     }
 
     public static String getStaticTag() {
-        return BottomSheetDialogFragment.class.getName().toString();
+        return BottomSheetDialog.class.getName().toString();
     }
 }

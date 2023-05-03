@@ -1,16 +1,24 @@
 package com.tickets;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.MenuItem;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
+import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.tickets.databinding.ActivityMainBinding;
+import com.tickets.ui.ChildFragment;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,4 +41,40 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        ChildFragment fragment = getChildFragment();
+
+        if (fragment != null) {
+            fragment.onBackPressed();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    public ChildFragment getChildFragment() {
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment_activity_main);
+        List<Fragment> fragments = navHostFragment.getChildFragmentManager().getFragments();
+        Fragment fragment = null;
+
+        if (fragments.size() > 0) {
+            fragment = fragments.get(0);
+        }
+
+        if (fragment instanceof ChildFragment) {
+            return (ChildFragment) fragment;
+        }
+
+        return null;
+    }
 }
