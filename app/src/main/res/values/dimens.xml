@@ -17,4 +17,5 @@
     <dimen name="text_input_corner_radius">8dp</dimen>
     <dimen name="button_corner_radius">8dp</dimen>
     <dimen name="bottom_sheet_dialog_corner_radius">12dp</dimen>
+    <dimen name="search_seats_corner_radius">20dp</dimen>
 </resources>

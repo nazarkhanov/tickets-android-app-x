@@ -11,5 +11,9 @@
     <string name="fragment_routes_find_button">Найти билеты</string>
     <string name="dialog_routes_search_text_input_placeholder">Город или станция</string>
     <string name="dialog_routes_subtitle">Города и станции</string>
-    <string name="title_search">Поиск</string>
+    <string name="title_search">Выберите места</string>
+    <string name="fragment_search_continue_button">Выбрать места</string>
+    <string name="fragment_search_seat_available">Свободное</string>
+    <string name="fragment_search_seat_selected">Выбранное</string>
+    <string name="fragment_search_seat_occupied">Занятое</string>
 </resources>

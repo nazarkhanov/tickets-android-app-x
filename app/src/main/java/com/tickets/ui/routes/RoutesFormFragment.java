@@ -61,8 +61,8 @@ public class RoutesFormFragment extends Fragment {
         initPlaceSelectBottomSheetDialog();
         initDatePickDialog();
         initCountSelectDialog();
-        initVaildateWatchers();
-        initSeachButton();
+        initValidateWatchers();
+        initSearchButton();
 
         return binding.getRoot();
     }
@@ -182,7 +182,7 @@ public class RoutesFormFragment extends Fragment {
         });
     }
 
-    private void initVaildateWatchers() {
+    private void initValidateWatchers() {
         viewModel.getPlaceFrom().observe(getViewLifecycleOwner(), new Observer<Place>() {
             @Override
             public void onChanged(Place place) {
@@ -238,6 +238,8 @@ public class RoutesFormFragment extends Fragment {
                 validateRoutesData();
             }
         });
+
+        binding.buttonMain.setEnabled(false);
     }
 
     private void validateRoutesData() {
@@ -251,15 +253,12 @@ public class RoutesFormFragment extends Fragment {
         binding.buttonMain.setEnabled(isAllFieldsField);
     }
 
-    private void initSeachButton() {
+    private void initSearchButton() {
         binding.buttonMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment_activity_main);
-                NavOptions options = new NavOptions.Builder()
-                        .setPopUpTo(navController.getCurrentDestination().getId(), true)
-                        .build();
-                navController.navigate(R.id.navigation_search, null, options);
+                navController.navigate(R.id.navigation_search);
             }
         });
     }

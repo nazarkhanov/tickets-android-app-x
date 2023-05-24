@@ -4,4 +4,9 @@
         <attr name="text" format="string" />
         <attr name="icon" format="reference" />
     </declare-styleable>
+
+    <declare-styleable name="SeatCheckboxView">
+        <attr name="state" format="integer" />
+        <attr name="scale" format="boolean" />
+    </declare-styleable>
 </resources>
