@@ -18,11 +18,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.itextpdf.text.BadElementException;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Font;
 import com.itextpdf.text.Image;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.BarcodeQRCode;
 import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfWriter;
+import com.tickets.R;
 import com.tickets.databinding.FragmentSearchBinding;
 import com.tickets.models.routes.Card;
 import com.tickets.models.routes.Place;
@@ -67,6 +69,9 @@ public class RoutesSearchFragment extends ChildFragment {
             public void onItemClick(Card card) {
                 try {
                     Document document = new Document();
+                    BaseFont base = BaseFont.createFont("assets/static/OpenSans-Medium.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+                    Font font = new Font(base,20, Font.NORMAL);
+
 
                     OutputStream outputStream = null;
                     try {
@@ -87,16 +92,16 @@ public class RoutesSearchFragment extends ChildFragment {
                     String routeName = viewModel.getPlaceFrom().getValue().getName() + " - " + viewModel.getPlaceTo().getValue().getName();
                     int numPassengers = viewModel.getCount().getValue();
                     int numPeopleOnBus = 24;
-                    String content = "Ticket Information: \nRoute Name: " + routeName + "\nNumber of Passengers: " + numPassengers + "\nNumber of People on the Bus: " + numPeopleOnBus;
+                    String content = "Информация о билете: \nМаршрут: " + routeName + "\nЧисло пассажиров: " + numPassengers + "\nКоличество мест в автобусе: " + numPeopleOnBus;
 
-                    Paragraph ticketInfo = new Paragraph(content);
+                    Paragraph ticketInfo = new Paragraph(content, font);
                     try {
                         document.add(ticketInfo);
                     } catch (DocumentException e) {
                         throw new RuntimeException(e);
                     }
 
-                    BarcodeQRCode barcodeQRCode = new BarcodeQRCode("Bus Tickets: Route Name, Number of Passengers, Number of People on the Bus", 1000, 1000, null);
+                    BarcodeQRCode barcodeQRCode = new BarcodeQRCode("Ticket id goes here", 320, 320, null);
 
                     Image qrcodeImage = null;
                     try {
@@ -112,9 +117,9 @@ public class RoutesSearchFragment extends ChildFragment {
                     }
 
                     document.close();
-                    Toast.makeText(context, "Ticket saved :)", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Билет сохранен в папке Download", Toast.LENGTH_SHORT).show();
                 } catch (Exception e) {
-                    Toast.makeText(context, "Ticket is not saved :(", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Не удалось сохранить билет", Toast.LENGTH_SHORT).show();
                 }
             }
         });

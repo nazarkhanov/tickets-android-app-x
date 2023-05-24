@@ -101,16 +101,13 @@ public class MainActivity extends AppCompatActivity {
 
         if (requestCode == PERMISSION_REQUEST_CODE) {
             if (grantResults.length > 0) {
-
-                // after requesting permissions we are showing
-                // users a toast message of permission granted.
                 boolean writeStorage = grantResults[0] == PackageManager.PERMISSION_GRANTED;
                 boolean readStorage = grantResults[1] == PackageManager.PERMISSION_GRANTED;
 
                 if (writeStorage && readStorage) {
-                    Toast.makeText(this, "Permission Granted..", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Разрешения получены", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(this, "Permission Denied.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Не удалось получить разрешения", Toast.LENGTH_SHORT).show();
                     finish();
                 }
             }
